@@ -1,62 +1,30 @@
-# CodeIgniter 4 Application Starter
+# Codeigniter 4
+### Rio Saputra 312110533
 
-## What is CodeIgniter?
+## Membuat Controler
+#### disini saya mencoba membuat controler baru dengan 3 object yang berbeda 
+![2](https://github.com/riosaputra17/Lab7web/assets/92787567/2cbf14ff-e691-4f31-a900-6fa2c480491d)
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+## Menambahkan routes baru
+![image](https://github.com/riosaputra17/Lab7web/assets/92787567/6348246e-cf9e-4de4-8dae-4c2d9c592c99)
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+## Hasil Program
+![Untitled](https://github.com/riosaputra17/Lab7web/assets/92787567/f915ce8f-b426-4641-b869-3a25e07192a5)
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+# Membuat View
+##### Disini saya menggunakan bootstraps untuk memodifikasi tampilan dari program sederhana memisahkan nya menjadi 4 bagian
+## Header.php
+![image](https://github.com/riosaputra17/Lab7web/assets/92787567/ca6526f3-5cc3-487b-b5e4-4e64da0d05f6)
+## About.php
+![image](https://github.com/riosaputra17/Lab7web/assets/92787567/cd86a8b9-96ed-4207-8761-76e4314860d2)
+## Home.php
+![image](https://github.com/riosaputra17/Lab7web/assets/92787567/3ab9d014-fe19-4868-81ec-f33595be3cd5)
+## Footer.php
+![image](https://github.com/riosaputra17/Lab7web/assets/92787567/c7aa15f1-dba3-4af0-a29e-3d30f79ff341)
+## Page.php
+![code](https://github.com/riosaputra17/Lab7web/assets/92787567/757a4aa7-ecb3-48ec-928c-e076a273a731)
+## Hasil Program
+![image](https://github.com/riosaputra17/Lab7web/assets/92787567/2f03607f-e7f2-4e1c-b94b-67f1843d4ce8)
 
-The user guide corresponding to the latest version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
 
-## Installation & updates
 
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
-
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
-
-## Setup
-
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
-
-## Important Change with index.php
-
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
-
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
-
-**Please** read the user guide for a better explanation of how CI4 works!
-
-## Repository Management
-
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Server Requirements
-
-PHP version 7.4 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
