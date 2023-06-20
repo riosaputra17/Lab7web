@@ -29,11 +29,18 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
+$routes->setAutoRoute(true);
 $routes->get('/', 'page::home');
 $routes->get('/about', 'Page::about');
 $routes->get('/contact', 'Page::contact');
 $routes->get('/faqs', 'Page::faqs');
 $routes->get('/home', 'Page::home');
+$routes->get('/komik', 'komik::index');
+$routes->get('/komik/create', 'Komik::create');
+$routes->get('komik/save', 'Komik::save');
+
+$routes->get('/komik/(:segment)', 'komik::detail/$1');
+
 
 
 /*

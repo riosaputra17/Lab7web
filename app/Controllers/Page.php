@@ -1,4 +1,5 @@
 <?php
+ 
 
 namespace App\Controllers;
 
@@ -8,27 +9,46 @@ class Page extends BaseController
     public function home(){
 
         $data = [
-            'title'=> 'Home | Pemrograman Web2'
+            'title'=> 'Home | Pemrograman Web2',
+            'tes' => ['satu','dua','tiga']
         ];
-        echo view ('layout/header', $data);
-        echo view ('page/home');
-        echo view ('layout/footer');
+        return view ('page/home', $data);
     }
     public function about()
     {
         $data = [
             'title'=> 'About Me'
         ];
-        echo view ('layout/header', $data);
-        echo view ('page/about');
-        echo view ('layout/footer');
+      
+        echo view ('page/about',$data);
+       
     }
     public function contact()
     {
-        echo "ini halaman contact";
+
+        $data =[
+            'title' => 'Contact Us',
+            'alamat' => [
+                [
+                'tipe' => 'rumah',
+                'alamat' => 'Kp. Bulak Kunyit',
+                'kota' => 'Bandung'
+            ],
+            [
+                'tipe' => 'Kantor',
+                'alamat' => 'Kp. Sasak Bakar',
+                'kota' => 'Bekasi'
+            ]
+
+            ]
+        ];
+
+        return view ('page/contact',$data);
     }
     public function faqs()
     {
         echo "ini halaman FAQ";
     }
 }
+
+?>
