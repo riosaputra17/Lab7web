@@ -1,6 +1,6 @@
 # Codeigniter 4
 ### Rio Saputra 312110533
-
+## Pertemuan 9
 ## Membuat Controler
 #### disini saya mencoba membuat controler baru dengan 3 object yang berbeda 
 ![2](https://github.com/riosaputra17/Lab7web/assets/92787567/2cbf14ff-e691-4f31-a900-6fa2c480491d)
