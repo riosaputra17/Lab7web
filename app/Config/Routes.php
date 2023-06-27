@@ -37,9 +37,12 @@ $routes->get('/faqs', 'Page::faqs');
 $routes->get('/home', 'Page::home');
 $routes->get('/komik', 'komik::index');
 $routes->get('/komik/create', 'Komik::create');
+$routes->get('/komik/edit/(:segment)', 'Komik::edit/$1');
 $routes->get('komik/save', 'Komik::save');
 
-$routes->get('/komik/(:segment)', 'komik::detail/$1');
+
+$routes->delete('/komik/(:num)', 'komik::delete/$1');
+$routes->get('/komik/(:any)', 'komik::detail/$1');
 
 
 
