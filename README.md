@@ -41,7 +41,7 @@
 -
 -
 ## Pertemuan 13 Menambahkan Fitur input file gambar
-![Cuplikan web_29-6-2023_01758_localhost](https://github.com/riosaputra17/Lab7web/assets/92787567/f985ceb5-8f93-4dc8-bafe-83401d12a405)
+![Cuplikan web_29-6-2023_02745_localhost](https://github.com/riosaputra17/Lab7web/assets/92787567/430cbb4c-7159-45d0-ad9a-c38efe7c2147)
 
 
 
