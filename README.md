@@ -5,7 +5,8 @@
 
 ## Hasil Program
 ![image](https://github.com/riosaputra17/Lab7web/assets/92787567/2f03607f-e7f2-4e1c-b94b-67f1843d4ce8)
-
+-
+-
 ## Pertemuan 10
 ### Membuat CRUD dengan CodeIgniter
 ## Insert data
@@ -27,12 +28,20 @@
 ## Data Masuk Kedatabase
 ![Cuplikan web_27-6-2023_132518_localhost](https://github.com/riosaputra17/Lab7web/assets/92787567/5d72c920-1bcb-4887-9dac-dd0f8734d2f2)
 
+-
+-
 ## Pertemuan 11 
 ## Memabuat fitur login
-
+-
+-
 ## pertemuan 12
 ## Menambhakn fitur pigination dan pencarian
 ![Cuplikan web_29-6-2023_01758_localhost](https://github.com/riosaputra17/Lab7web/assets/92787567/0f441bdf-c8e9-4466-aee9-8de9de436ab3)
+
+-
+-
+## Pertemuan 13 Menambahkan Fitur input file gambar
+![Cuplikan web_29-6-2023_01758_localhost](https://github.com/riosaputra17/Lab7web/assets/92787567/f985ceb5-8f93-4dc8-bafe-83401d12a405)
 
 
 
