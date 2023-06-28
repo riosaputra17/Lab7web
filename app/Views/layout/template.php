@@ -32,6 +32,24 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+    <script>
+    function previewImg() {
+
+
+        const sampul = document.querySelector('#sampul');
+        const sampulLabel = document.querySelector('.costum-file-label');
+        const imgPreview = document.querySelector('.img-preview');
+
+        sampulLabel.textContent = sampul.files[0].name;
+
+        const fileSampul = new FileReader();
+        fileSampul.readAsDataURL(sampul.files[0]);
+
+        fileSampul.onload = function(e) {
+            imgPreview.src = e.target.result;
+        }
+    }
+    </script>
 </body>
 
 </html>

@@ -5,3 +5,7 @@
 .table > tbody > tr > * {
     vertical-align: middle;
 }
+
+.default_img {
+    width: 70px;
+}
