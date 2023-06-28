@@ -27,6 +27,13 @@
 ## Data Masuk Kedatabase
 ![Cuplikan web_27-6-2023_132518_localhost](https://github.com/riosaputra17/Lab7web/assets/92787567/5d72c920-1bcb-4887-9dac-dd0f8734d2f2)
 
+## Pertemuan 11 
+## Memabuat fitur login
+
+## pertemuan 12
+## Menambhakn fitur pigination dan pencarian
+![Cuplikan web_29-6-2023_01758_localhost](https://github.com/riosaputra17/Lab7web/assets/92787567/0f441bdf-c8e9-4466-aee9-8de9de436ab3)
+
 
 
 
