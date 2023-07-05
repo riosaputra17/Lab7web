@@ -31,7 +31,12 @@
 -
 -
 ## Pertemuan 11 
-## Memabuat fitur login
+## Memabuat fitur login dan register dengan library myth/auth
+## Register
+![Cuplikan web_5-7-2023_142651_localhost](https://github.com/riosaputra17/Lab7web/assets/92787567/b59f2605-3df5-4898-a356-bde5821720e2)
+## login
+![Cuplikan web_5-7-2023_142715_localhost](https://github.com/riosaputra17/Lab7web/assets/92787567/d4ee2401-4c0a-47c1-8558-9a24ff1dbcf8)
+
 -
 -
 ## pertemuan 12
